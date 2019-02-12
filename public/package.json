@@ -1,0 +1,10 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "dependencies": {
+    "lit-element": "latest"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3"
+  }
+}
