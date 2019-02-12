@@ -3,21 +3,13 @@
 import {css, html, LitElement, customElement, property}  from '../node_modules/lit-element/lit-element' // 'https://unpkg.com/lit-element@2.x/lit-element.js?module'
 
 // Extend the LitElement base class
-class MyElement extends LitElement {
+class ConceptNode extends LitElement {
 
-    subject:string;
-    id:string;
-    x:number;
-    y:number;
+    subject:string = 'Hello World';
+    id:string = 'abc';
+    x:number = 10;
+    y:number = 10;
     private clickHandler: any;
-
-    constructor() {
-        super();
-        this.subject = 'Hello World';
-        this.id = 'Hello World';
-        this.x = 10;
-        this.y = 10;
-    }
 
     static styles = css`
     :host {
@@ -67,4 +59,4 @@ class MyElement extends LitElement {
 }
 
 // Register the new element with the browser.
-customElements.define('my-element', MyElement);
+customElements.define('concept-node', ConceptNode);

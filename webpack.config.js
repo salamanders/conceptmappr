@@ -7,7 +7,7 @@ module.exports = {
     }
   },
 
-  entry: './js/concept-node.js',
+  entry: './src/concept-node.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
