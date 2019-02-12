@@ -1,6 +1,6 @@
 // Import the LitElement base class and html helper function
 
-import {css, html, LitElement, customElement, property}  from '../node_modules/lit-element/lit-element' // 'https://unpkg.com/lit-element@2.x/lit-element.js?module'
+import {css, html, LitElement, customElement, property}  from 'lit-element' // 'https://unpkg.com/lit-element@2.x/lit-element.js?module'
 
 // Extend the LitElement base class
 class ConceptNode extends LitElement {
